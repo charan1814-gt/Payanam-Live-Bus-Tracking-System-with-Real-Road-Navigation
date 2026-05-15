@@ -308,7 +308,7 @@ class AuthService {
     } else {
       // If no config exists, we accept any code (or reject based on requirements)
       // Throwing here to ensure secure setup.
-      if (secretCode != 'PAYANAM@ADMIN123') {
+      if (secretCode != 'YOUR_ADMIN_SECRET_HERE') {
         throw 'Invalid Secret Code';
       }
     }

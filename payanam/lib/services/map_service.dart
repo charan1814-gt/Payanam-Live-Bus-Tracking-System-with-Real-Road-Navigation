@@ -21,7 +21,7 @@ class RouteResult {
 }
 
 class MapService {
-  static const String _googleApiKey = "AIzaSyBOdKcxOtz8wf-LFctkUi8RhZfo0XuesZ4";
+  static const String _googleApiKey = "YOUR_GOOGLE_MAPS_API_KEY";
 
   /// Fetches a road-snapped polyline for a list of stops.
   /// Handles more than 25 stops by chunking the requests.
